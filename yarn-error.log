@@ -1,0 +1,48 @@
+Arguments: 
+  C:\Program Files\nodejs\node.exe C:\Users\Dell\AppData\Roaming\npm\node_modules\yarn\bin\yarn.js install
+
+PATH: 
+  C:\Program Files\Common Files\Oracle\Java\javapath;C:\ProgramData\Anaconda3;C:\ProgramData\Anaconda3\Library\mingw-w64\bin;C:\ProgramData\Anaconda3\Library\usr\bin;C:\ProgramData\Anaconda3\Library\bin;C:\ProgramData\Anaconda3\Scripts;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\mingw-w64\i686-8.1.0-posix-dwarf-rt_v6-rev0\mingw32\bin;C:\Program Files\Git\cmd;C:\WINDOWS\System32\OpenSSH\;C:\ProgramData\chocolatey\bin;C:\Program Files\dotnet\;C:\instantclient-basic-windows.x64-21.8.0.0.0dbru_vishal\instantclient_21_8;C:\Program Files\nodejs\;C:\Program Files\Docker\Docker\resources\bin;C:\jdk-20_windows-x64_bin\jdk-20.0.1\bin;C:\apache-cassandra-3.11.14\bin;C:\Program Files\Java\jdk-20\bin;C:\Users\Dell\AppData\Local\Microsoft\WindowsApps;C:\Users\Dell\AppData\Local\Programs\Microsoft VS Code\bin;C:\Program Files\MongoDB\Server\5.0\bin;C:\Users\Dell\AppData\Local\GitHubDesktop\bin;C:\Users\Dell\AppData\Roaming\npm;C:\Users\Dell\Downloads\jdk-20_windows-x64_bin\jdk-20.0.1\bin;C:\apache-cassandra-3.11.14\bin;C:\Program Files\Java\jdk-20\bin;
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  14.20.1
+
+Platform: 
+  win32 x64
+
+Trace: 
+  Error: EPERM: operation not permitted, unlink 'E:\Vishal-Mern-Placement\React-redux\server6\node_modules\bcrypt\lib\binding\napi-v3\bcrypt_lib.node'
+
+npm manifest: 
+  {
+    "name": "server6",
+    "version": "1.0.0",
+    "description": "��#\u0000 \u0000b\u0000o\u0000o\u0000k\u0000S\u0000t\u0000o\u0000r\u0000e\u0000-\u0000b\u0000a\u0000c\u0000k\u0000e\u0000n\u0000d\u0000\r\u0000 \u0000#\u0000 \u0000b\u0000o\u0000o\u0000k\u0000S\u0000t\u0000o\u0000r\u0000e\u0000-\u0000b\u0000a\u0000c\u0000k\u0000E\u0000n\u0000d\u0000\r\u0000 \u0000",
+    "main": "server.js",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1",
+      "start": "node server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "bcrypt": "^5.1.1",
+      "cookie-parser": "^1.4.6",
+      "cookies": "^0.8.0",
+      "cors": "^2.8.5",
+      "dotenv": "^16.3.1",
+      "express": "^4.18.2",
+      "jsonwebtoken": "^9.0.1",
+      "mongoose": "^7.4.5",
+      "nodemon": "^3.0.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
