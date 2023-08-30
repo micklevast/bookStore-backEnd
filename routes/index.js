@@ -33,4 +33,11 @@ router.get("/books", bookController.getBooks);
 // router.post("/books/add", verifyToken, bookController.addBook);
 router.post("/books/add", bookController.addBook);
 
+// Update a book
+router.put("/books/update/:id", bookController.updateBook);
+
+
+// delete a book
+router.delete("/books/delete/:id", bookController.deleteBook);
+
 module.exports = router;
