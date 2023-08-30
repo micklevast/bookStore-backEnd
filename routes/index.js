@@ -7,7 +7,7 @@ const router = express.Router();
 
 // Home route
 router.get("/", (req, res) => {
-  res.send("Working fine, thank you.");
+  res.send("Working fine, thank you so Much God Ji 😊🙏😀");
 });
 
 // Set cookie route
